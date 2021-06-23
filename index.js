@@ -10,6 +10,7 @@ client.on("message", (msg) => {
   if (msg.content.includes(versus) || msg.content.includes(Versus)) {
     msg.reply("DON'T PULL A NOMURA ON ME PLS");
     msg.react("🤡");
+    msg.react("🤡");
   }
 });
 
